@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#000000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Profil"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textColor="#A8A8A8"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/etEditName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan nama"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#4D4D4D"
+        android:backgroundTint="#FFFFFF"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textColor="#A8A8A8"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/etEditUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan username"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#4D4D4D"
+        android:backgroundTint="#FFFFFF"
+        android:inputType="text"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan Perubahan"
+        android:textAllCaps="false"
+        android:backgroundTint="#0095F6"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Setiap perubahan akan langsung diperbarui di halaman profil."
+        android:textColor="#666666"
+        android:textSize="11sp"
+        android:gravity="center"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
