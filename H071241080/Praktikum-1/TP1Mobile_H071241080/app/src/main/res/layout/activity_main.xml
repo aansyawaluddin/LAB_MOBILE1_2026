@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/linkedin_white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        android:paddingTop="35dp"
+        android:background="@color/linkedin_white"
+        android:forceDarkAllowed="false">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@color/linkedin_white">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_default_profile"
+                android:scaleType="centerCrop"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/linkedin_blue"/>
+
+            <TextView
+                android:id="@+id/tv_verified_badge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profile_image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="4dp"
+                android:text="📧 Add verification badge"
+                android:textColor="@color/linkedin_blue"
+                android:textSize="14sp"/>
+        </RelativeLayout>
+
+        <!-- Nama Lengkap -->
+        <TextView
+            android:id="@+id/tv_full_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hanifah Atthahira Basir"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/linkedin_dark_gray"
+            android:gravity="center"
+            android:layout_marginBottom="4dp"/>
+
+        <!-- Headline -->
+        <TextView
+            android:id="@+id/tv_headline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student at Universitas Hasanuddin"
+            android:textSize="16sp"
+            android:textColor="@color/linkedin_dark_gray"
+            android:gravity="center"
+            android:layout_marginBottom="2dp"/>
+
+        <!-- Universitas -->
+        <TextView
+            android:id="@+id/tv_university"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Universitas Hasanuddin"
+            android:textSize="14sp"
+            android:textColor="@color/linkedin_gray"
+            android:gravity="center"/>
+
+        <!-- Lokasi -->
+        <TextView
+            android:id="@+id/tv_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Makassar, South Sulawesi, Indonesia"
+            android:textSize="14sp"
+            android:textColor="@color/linkedin_gray"
+            android:gravity="center"
+            android:layout_marginTop="2dp"/>
+
+        <!-- Connections -->
+        <TextView
+            android:id="@+id/tv_connections"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10 connections"
+            android:textSize="14sp"
+            android:textColor="@color/linkedin_blue"
+            android:gravity="center"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/linkedin_border_gray"
+            android:layout_marginVertical="20dp"/>
+
+        <!-- Enhanced profile section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enhance your profile"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/linkedin_dark_gray"
+            android:layout_marginBottom="12dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/linkedin_light_gray"
+            android:padding="16dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_resume_linkedin"
+                android:contentDescription="Resume icon"
+                app:tint="@color/linkedin_blue"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Set up your profile in minutes with a resume"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/linkedin_dark_gray"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Upload a recent resume to fill out your profile with the help of AI."
+                    android:textSize="12sp"
+                    android:textColor="@color/linkedin_gray"/>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get started"
+                android:textColor="@color/linkedin_blue"
+                android:backgroundTint="@color/linkedin_white"
+                app:strokeColor="@color/linkedin_blue"
+                app:strokeWidth="1dp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+        </LinearLayout>
+
+        <!-- Tombol Edit Profile -->
+        <Button
+            android:id="@+id/btn_edit_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Edit Profile"
+            android:textColor="@color/linkedin_white"
+            android:backgroundTint="@color/linkedin_blue"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:stateListAnimator="@null"
+        android:elevation="0dp"/>
+
+    </LinearLayout>
+</ScrollView>

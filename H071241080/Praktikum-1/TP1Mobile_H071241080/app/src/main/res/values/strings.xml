@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Profile App</string>
+
+    <!-- Profile strings -->
+    <string name="add_verification_badge">Tambahkan lencana verifikasi</string>
+    <string name="default_name">Aan Syawaluddin Adi Putra</string>
+    <string name="default_username">@aan_syawaluddin</string>
+    <string name="default_bio">Student at University Hasanuddin</string>
+    <string name="default_university">University Hasanuddin</string>
+    <string name="default_location">Makassar, Sulawesi Selatan, Indonesia</string>
+    <string name="default_connections">39 koneksi</string>
+    <string name="optimize_profile">Optimalkan profil Anda</string>
+    <string name="open_to_work_text">Terbuka untuk bekerja Peran Student Tampilkan detail</string>
+    <string name="edit_profile">Edit Profile</string>
+
+    <!-- Edit profile strings -->
+    <string name="edit_profile_title">Edit Profile</string>
+    <string name="change_photo">Ubah Foto</string>
+    <string name="name_hint">Nama Lengkap</string>
+    <string name="username_hint">Username</string>
+    <string name="bio_hint">Bio</string>
+    <string name="university_hint">Universitas</string>
+    <string name="location_hint">Lokasi</string>
+    <string name="save">Simpan</string>
+    <string name="cancel">Batal</string>
+
+    <!-- Content descriptions -->
+    <string name="profile_photo_description">Foto Profil</string>
+    <string name="work_icon_description">Ikon Pekerjaan</string>
+    <string name="arrow_icon_description">Ikon Panah</string>
+</resources>

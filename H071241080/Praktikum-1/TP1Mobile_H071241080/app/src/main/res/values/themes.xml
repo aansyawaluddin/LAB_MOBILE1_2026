@@ -1,0 +1,86 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme - HAPUS semua warisan warna default -->
+    <style name="Theme.Tp1mobile_H071241080" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- NONAKTIFKAN SEMUA WARNA DEFAULT DENGAN MENGGUNAKAN WARNA KUSTOM -->
+
+        <!-- Warna Primer (Biru LinkedIn) -->
+        <item name="colorPrimary">@color/linkedin_blue</item>
+        <item name="colorPrimaryVariant">@color/linkedin_dark_blue</item>
+        <item name="colorOnPrimary">@color/linkedin_white</item>
+
+        <!-- Warna Sekunder -->
+        <item name="colorSecondary">@color/linkedin_blue</item>
+        <item name="colorSecondaryVariant">@color/linkedin_dark_blue</item>
+        <item name="colorOnSecondary">@color/linkedin_white</item>
+
+        <!-- Surface dan Background -->
+        <item name="android:colorBackground">@color/linkedin_white</item>
+        <item name="android:windowBackground">@color/linkedin_white</item>
+        <item name="colorSurface">@color/linkedin_white</item>
+        <item name="colorOnSurface">@color/linkedin_dark_gray</item>
+
+        <!-- Warna Text Dasar - OVERRIDE TOTAL -->
+        <item name="android:textColorPrimary">@color/linkedin_dark_gray</item>
+        <item name="android:textColorSecondary">@color/linkedin_gray</item>
+        <item name="android:textColorTertiary">@color/linkedin_light_gray</item>
+        <item name="android:textColorHint">@color/linkedin_gray</item>
+        <item name="android:textColorLink">@color/linkedin_blue</item>
+
+        <!-- Warna untuk Button -->
+        <item name="colorButtonNormal">@color/linkedin_blue</item>
+        <item name="android:buttonTint">@color/linkedin_blue</item>
+
+        <!-- Warna untuk Control (Checkbox, Radio, dll) -->
+        <item name="colorControlNormal">@color/linkedin_gray</item>
+        <item name="colorControlActivated">@color/linkedin_blue</item>
+        <item name="colorControlHighlight">@color/linkedin_blue</item>
+
+        <!-- Status Bar -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/linkedin_blue</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+
+        <!-- Navigation Bar -->
+        <item name="android:navigationBarColor" tools:targetApi="l">@color/linkedin_white</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o">true</item>
+
+        <!-- Font -->
+        <item name="android:fontFamily">sans-serif</item>
+
+        <!-- NONAKTIFKAN FORCE DARK MODE -->
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+
+    </style>
+
+    <!-- Style untuk Button agar tidak menggunakan warna default -->
+    <style name="LinkedInButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/linkedin_white</item>
+        <item name="android:backgroundTint">@color/linkedin_blue</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Style untuk Outlined Button -->
+    <style name="LinkedInOutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/linkedin_blue</item>
+        <item name="strokeColor">@color/linkedin_blue</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <!-- Style untuk TextView -->
+    <style name="LinkedInTextView" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/linkedin_dark_gray</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Style untuk EditText -->
+    <style name="LinkedInEditText" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/linkedin_blue</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="hintTextColor">@color/linkedin_gray</item>
+    </style>
+
+</resources>
