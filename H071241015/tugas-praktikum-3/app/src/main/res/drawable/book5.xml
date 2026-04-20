@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="180dp"
+    android:viewportWidth="120"
+    android:viewportHeight="180">
+    <!-- Background -->
+    <path android:fillColor="#B71C1C" android:pathData="M0,0h120v180H0z"/>
+    <!-- Diamond pattern -->
+    <path android:fillColor="#C62828" android:pathData="M60,20L100,90L60,160L20,90z"/>
+    <path android:fillColor="#E53935" android:pathData="M60,40L85,90L60,140L35,90z"/>
+    <!-- Accent stripe -->
+    <path android:fillColor="#FFCDD2" android:pathData="M0,150h120v30H0z"/>
+</vector>
