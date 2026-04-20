@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Library App</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_hint">Cari judul atau penulis</string>
+    <string name="book_list_title">📚 Book List</string>
+    <string name="add_book_title">📖 Tambah Buku Baru</string>
+    <string name="favorites_title">❤️ Buku Favorit Saya</string>
+    <string name="empty_favorites">Belum ada buku favorit.\nTap ikon ❤️ di halaman detail untuk menambahkan!</string>
+    <string name="add_to_favorites">Tambahkan ke Favorit</string>
+    <string name="remove_from_favorites">Hapus dari Favorit</string>
+    <string name="save_book">Simpan Buku</string>
+    <string name="pick_cover">Pilih Cover dari Galeri</string>
+</resources>

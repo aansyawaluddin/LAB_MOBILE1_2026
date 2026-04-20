@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="180dp"
+    android:viewportWidth="120"
+    android:viewportHeight="180">
+    <!-- Background - teal -->
+    <path android:fillColor="#004D40" android:pathData="M0,0h120v180H0z"/>
+    <!-- Planet -->
+    <path android:fillColor="#00695C" android:pathData="M60,80m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0"/>
+    <!-- Ring -->
+    <path android:fillColor="#4DB6AC" android:pathData="M10,80Q60,55 110,80Q60,95 10,80z" android:strokeWidth="2" android:strokeColor="#80CBC4"/>
+    <!-- Stars -->
+    <path android:fillColor="#B2DFDB" android:pathData="M20,20m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <path android:fillColor="#B2DFDB" android:pathData="M100,30m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"/>
+    <path android:fillColor="#B2DFDB" android:pathData="M85,15m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <path android:fillColor="#B2DFDB" android:pathData="M40,145m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <!-- Bottom bar -->
+    <path android:fillColor="#B2DFDB" android:pathData="M0,165h120v15H0z"/>
+</vector>

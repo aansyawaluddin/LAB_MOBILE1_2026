@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="180dp"
+    android:viewportWidth="120"
+    android:viewportHeight="180">
+    <!-- Background -->
+    <path android:fillColor="#1A237E" android:pathData="M0,0h120v180H0z"/>
+    <!-- Accent stripe -->
+    <path android:fillColor="#283593" android:pathData="M0,0h15v180H0z"/>
+    <!-- Circle decoration -->
+    <path android:fillColor="#3949AB" android:pathData="M70,70m-35,0a35,35 0,1 1,70 0a35,35 0,1 1,-70 0"/>
+    <path android:fillColor="#5C6BC0" android:pathData="M70,70m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0"/>
+    <!-- Bottom bar -->
+    <path android:fillColor="#C5CAE9" android:pathData="M0,150h120v30H0z"/>
+</vector>

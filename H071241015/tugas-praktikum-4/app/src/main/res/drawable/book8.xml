@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="180dp"
+    android:viewportWidth="120"
+    android:viewportHeight="180">
+    <!-- Background -->
+    <path android:fillColor="#1B5E20" android:pathData="M0,0h120v180H0z"/>
+    <!-- Mountains -->
+    <path android:fillColor="#2E7D32" android:pathData="M0,180L40,60L80,180z"/>
+    <path android:fillColor="#388E3C" android:pathData="M40,180L80,80L120,180z"/>
+    <!-- Sun -->
+    <path android:fillColor="#FFC107" android:pathData="M90,35m-15,0a15,15 0,1 1,30 0a15,15 0,1 1,-30 0"/>
+    <!-- Bottom -->
+    <path android:fillColor="#C8E6C9" android:pathData="M0,160h120v20H0z"/>
+</vector>
