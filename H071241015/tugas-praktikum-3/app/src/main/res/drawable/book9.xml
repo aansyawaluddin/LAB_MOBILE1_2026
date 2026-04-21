@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="180dp"
+    android:viewportWidth="120"
+    android:viewportHeight="180">
+    <!-- Background -->
+    <path android:fillColor="#3E2723" android:pathData="M0,0h120v180H0z"/>
+    <!-- Storm waves -->
+    <path android:fillColor="#4E342E" android:pathData="M0,100Q30,80 60,100Q90,120 120,100L120,180L0,180z"/>
+    <path android:fillColor="#5D4037" android:pathData="M0,120Q30,100 60,120Q90,140 120,120L120,180L0,180z"/>
+    <path android:fillColor="#6D4C41" android:pathData="M0,140Q30,120 60,140Q90,160 120,140L120,180L0,180z"/>
+    <!-- Top bar -->
+    <path android:fillColor="#D7CCC8" android:pathData="M0,0h120v15H0z"/>
+</vector>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="180dp"
+    android:viewportWidth="120"
+    android:viewportHeight="180">
+    <!-- Background - warm amber -->
+    <path android:fillColor="#FF6F00" android:pathData="M0,0h120v180H0z"/>
+    <!-- Arches -->
+    <path android:fillColor="#FF8F00" android:pathData="M10,180L60,40L110,180z"/>
+    <path android:fillColor="#FFA000" android:pathData="M25,180L60,70L95,180z"/>
+    <path android:fillColor="#FFB300" android:pathData="M40,180L60,100L80,180z"/>
+    <!-- Top accent -->
+    <path android:fillColor="#FFF8E1" android:pathData="M0,0h120v12H0z"/>
+</vector>

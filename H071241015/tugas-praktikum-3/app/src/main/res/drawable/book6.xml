@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="180dp"
+    android:viewportWidth="120"
+    android:viewportHeight="180">
+    <!-- Background -->
+    <path android:fillColor="#E65100" android:pathData="M0,0h120v180H0z"/>
+    <!-- Flame shapes -->
+    <path android:fillColor="#F57C00" android:pathData="M30,180L60,60L90,180z"/>
+    <path android:fillColor="#FF9800" android:pathData="M40,180L60,90L80,180z"/>
+    <path android:fillColor="#FFB74D" android:pathData="M50,180L60,110L70,180z"/>
+    <!-- Top bar -->
+    <path android:fillColor="#FFF3E0" android:pathData="M0,0h120v20H0z"/>
+</vector>

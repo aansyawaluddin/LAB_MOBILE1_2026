@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="180dp"
+    android:viewportWidth="120"
+    android:viewportHeight="180">
+    <!-- Background -->
+    <path android:fillColor="#4A148C" android:pathData="M0,0h120v180H0z"/>
+    <!-- Ornamental cross -->
+    <path android:fillColor="#6A1B9A" android:pathData="M50,0h20v180H50z"/>
+    <path android:fillColor="#6A1B9A" android:pathData="M0,80h120v20H0z"/>
+    <!-- Corner decorations -->
+    <path android:fillColor="#CE93D8" android:pathData="M0,0h30v30H0z"/>
+    <path android:fillColor="#CE93D8" android:pathData="M90,0h30v30H0z"/>
+    <!-- Bottom -->
+    <path android:fillColor="#E1BEE7" android:pathData="M0,160h120v20H0z"/>
+</vector>
